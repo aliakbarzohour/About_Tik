@@ -117,3 +117,31 @@ footer p {
     left: 0;
     width: 100%;
 }
+
+
+/* Responsive */
+
+@media screen and (min-width: 740px) {
+    body {
+        display: flex;
+        flex-direction: row;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+    }
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .top_image {
+        width: 40%;
+        margin: 0 1.5rem;
+    }
+    .about {
+        display: none;
+    }
+    footer {
+        display: none;
+    }
+}
