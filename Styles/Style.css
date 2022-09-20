@@ -1,0 +1,119 @@
+@font-face {
+    font-family: "Anic";
+    src: url('../Media/Anic.TTF');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Anic" !important;
+    direction: rtl;
+}
+
+body {
+    background: url('../Media/Background.jpg') center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.top_image {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    display: block;
+}
+
+.about {
+    width: 100%;
+    padding: 0 3rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+p {
+    text-align: center;
+}
+
+.connection-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.connections {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+.box {
+    border: 2px solid black;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    width: 47%;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid black;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    gap: .4rem;
+    margin-bottom: .3rem;
+    font-size: 1.3rem;
+}
+
+.telegram .title {
+    background: url('../Media/blue-btn.jpg') center center;
+}
+
+.instagram .title {
+    background: url('../Media/red-btn.jpg') center center;
+}
+
+.website .title {
+    background: url('../Media/green-btn.png') center center;
+}
+
+.phone .title {
+    background: url('../Media/orange-btn.jpg') center center;
+}
+
+footer {
+    background: url(../Media/Grop.png) center center;
+    width: 100%;
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 100px;
+}
+
+footer p {
+    font-size: .8rem;
+    position: absolute;
+    bottom: .8rem;
+    left: 0;
+    width: 100%;
+}
