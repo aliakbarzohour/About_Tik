@@ -39,6 +39,7 @@ a {
 
 p {
     text-align: center;
+    font-size: 1.5rem;
 }
 
 .connection-container {
@@ -135,6 +136,7 @@ footer p {
     }
     .about p {
         width: 500px;
+        margin: 0 auto;
     }
     footer {
         display: none;
